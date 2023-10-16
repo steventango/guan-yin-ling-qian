@@ -1,0 +1,51 @@
+body {
+  background-color: #f2d674;
+  font-size: 1.5em;
+}
+
+table {
+  border: 1px solid black;
+  height: 100%;
+  width: 100%;
+  border-collapse: collapse;
+  display: none;
+}
+
+table td {
+  border: 1px solid black;
+  vertical-align: top;
+  padding: 0.5em;
+}
+
+table.vertical td {
+  writing-mode: vertical-rl;
+}
+
+table.vertical br.horizontal {
+  display: none;
+}
+
+td#籤詩版本二,
+td#詩意 {
+  height: 50%;
+}
+
+p#觀音靈籤_ {
+  text-align: center;
+}
+
+th {
+  font-weight: normal;
+}
+
+@media print {
+  label,
+  select,
+  button {
+    display: none;
+  }
+
+  body {
+    background-color: white;
+  }
+}

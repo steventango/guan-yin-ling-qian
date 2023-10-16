@@ -1,0 +1,4 @@
+beautifulsoup4
+requests
+tqdm
+googletrans==3.1.0a0
